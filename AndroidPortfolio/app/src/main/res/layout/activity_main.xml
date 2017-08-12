@@ -7,19 +7,13 @@
     android:orientation="vertical"
     tools:context="io.github.gat_x303.androidportfolio.MainActivity">
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            android:src="@drawable/profile_backgounrd3" />
-
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_backgounrd3" />
 
     <!--Broken into multiple LinearLayouts so that clicks can checked for a 'bundle' of TextViews-->
 
@@ -29,7 +23,7 @@
         android:background="@color/divider" />
 
     <LinearLayout
-        android:id="@+id/aboutTextView"
+        android:id="@+id/aboutView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -57,7 +51,7 @@
         android:background="@color/divider" />
 
     <LinearLayout
-        android:id="@+id/skillsTextView"
+        android:id="@+id/skillsView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -85,7 +79,7 @@
         android:background="@color/divider" />
 
     <LinearLayout
-        android:id="@+id/projectsTextView"
+        android:id="@+id/projectsView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -113,7 +107,7 @@
         android:background="@color/divider" />
 
     <LinearLayout
-        android:id="@+id/contactTextView"
+        android:id="@+id/contactView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"

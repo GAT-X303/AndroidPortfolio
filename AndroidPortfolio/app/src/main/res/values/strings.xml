@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidPortfolio</string>
+    <string name="about">About</string>
+    <string name="skills">Skills</string>
+    <string name="projects">Projects</string>
+    <string name="contact">Contact</string>
 </resources>
