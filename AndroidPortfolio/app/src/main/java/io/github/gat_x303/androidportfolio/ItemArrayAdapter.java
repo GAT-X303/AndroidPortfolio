@@ -1,7 +1,6 @@
 package io.github.gat_x303.androidportfolio;
 
 import android.content.Context;
-import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,13 +10,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by allan on 2017-08-11.
+/*
+Used to recycle and populate ListViews of object Item
  */
-
-public class SkillAdapter extends ArrayAdapter<Skill> {
-    public SkillAdapter(Context context, ArrayList<Skill> skills) {
-        super(context, 0, skills);
+public class ItemArrayAdapter extends ArrayAdapter<Item> {
+    public ItemArrayAdapter(Context context, ArrayList<Item> items) {
+        super(context, 0, items);
     }
 
     @Override
@@ -34,10 +32,10 @@ public class SkillAdapter extends ArrayAdapter<Skill> {
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.skillImage);
 
         //gets the current skills at index position
-        Skill currentSkill = getItem(position);
+        Item currentItem = getItem(position);
 
-        skillView.setText(currentSkill.name);
-        imageView.setImageResource(currentSkill.image);
+        skillView.setText(currentItem.name);
+        imageView.setImageResource(currentItem.image);
 
         return listItemView;
     }

@@ -20,6 +20,6 @@
         android:layout_weight="0"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/profile_backgounrd3" />
+        android:src="@drawable/profile_background3" />
 
 </LinearLayout>

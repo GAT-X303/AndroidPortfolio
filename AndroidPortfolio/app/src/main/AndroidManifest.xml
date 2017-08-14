@@ -20,7 +20,10 @@
             android:label="@string/about" />
         <activity
             android:name=".SkillsActivity"
-            android:label="Skills" />
+            android:label="@string/items" />
+        <activity
+            android:name=".ProjectsActivity"
+            android:label="@string/projects" />
     </application>
 
 </manifest>

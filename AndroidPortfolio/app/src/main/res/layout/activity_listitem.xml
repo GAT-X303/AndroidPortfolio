@@ -15,11 +15,11 @@
             android:id="@+id/skillImage"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:paddingRight="8dp"
-            android:src="@drawable/python" />
+            android:src="@drawable/xxhdpi_python"/>
 
         <TextView
             android:id="@+id/skillName"
+            android:paddingLeft="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

@@ -42,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        projectsView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent projectsIntent = new Intent(MainActivity.this, ProjectsActivity.class);
+                startActivity(projectsIntent);
+            }
+        });
+
         //
 
     }
