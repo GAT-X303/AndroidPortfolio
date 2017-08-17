@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:scaleType="centerCrop"
-        android:src="@drawable/profile_background3" />
+        android:src="@drawable/profile" />
 
     <!--Broken into multiple LinearLayouts so that clicks can checked for a 'bundle' of TextViews-->
 
