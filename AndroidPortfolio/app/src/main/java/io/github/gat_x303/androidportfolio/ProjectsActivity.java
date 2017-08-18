@@ -23,11 +23,11 @@ public class ProjectsActivity extends AppCompatActivity {
         String address1 = "https://gat-x303.github.io/project1.html";
 
         String title2 = "My Portfolio Site";
-        String info2 = "Apply my knowledge, in HTML/CSS and web design to create a website that will act as my online portfolio that will updated as I acquiring skills and complete projects.";
+        String info2 = "Apply my knowledge, in HTML/CSS and web design to create a website that will act as my online portfolio that will updated as I acquiring skills and complete projects.\n\nSkills Applied\n-HTML/CSS\n-Version Control via GitHub\n-Web Design";
         String address2 = "https://gat-x303.github.io/project2.html";
 
         String title3 = "Android Portfolio";
-        String info3 = "To design an Android application and apply my skills of basic Android development that would contain similar information to my portfolio site.";
+        String info3 = "To design an Android application and apply my skills of basic Android development that would contain similar information to my portfolio site.\n\nSkills Applied\n-Android Application Development\n-Java\n-UX Design";
         String address3 = "https://gat-x303.github.io/project3.html";
 
         ArrayList<Item> projectsList = new ArrayList<>();
